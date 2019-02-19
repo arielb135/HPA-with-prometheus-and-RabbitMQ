@@ -4,6 +4,7 @@ Autoscale a deployment based on a custom metric from prometheus (RabbitMQ) tutor
 **Few things that are important to do: ** 
 
 **Install prometheus, prometheus-adapter+ metrics server**:
+
 https://github.com/helm/charts/tree/master/stable/prometheus
 https://github.com/helm/charts/tree/master/stable/metrics-server
 https://github.com/helm/charts/tree/master/stable/prometheus-adapter
