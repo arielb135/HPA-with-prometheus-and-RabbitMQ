@@ -6,7 +6,9 @@ Autoscale a deployment based on a custom metric from prometheus (RabbitMQ) tutor
 **Install prometheus, prometheus-adapter+ metrics server**:
 
 https://github.com/helm/charts/tree/master/stable/prometheus
+
 https://github.com/helm/charts/tree/master/stable/metrics-server
+
 https://github.com/helm/charts/tree/master/stable/prometheus-adapter
 
 - Note - in the adapter's values.yaml - you'll find the prometheus URL you need to adjust (in port 9090), as the official prometheus operator creates dynamically some endpoints called (X-operated) - i've used that, example:
