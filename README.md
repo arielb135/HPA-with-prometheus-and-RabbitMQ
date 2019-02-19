@@ -1,10 +1,10 @@
 # HPA-with-prometheus-and-RabbitMQ
 Autoscale a deployment based on a custom metric from prometheus (RabbitMQ) tutorial:
 
-
 **Few things that are important to do: ** 
 
-**Install prometheus-adapter+ metrics server**:
+**Install prometheus, prometheus-adapter+ metrics server**:
+https://github.com/helm/charts/tree/master/stable/prometheus
 https://github.com/helm/charts/tree/master/stable/metrics-server
 https://github.com/helm/charts/tree/master/stable/prometheus-adapter
 
